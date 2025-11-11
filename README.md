@@ -122,4 +122,5 @@ This guide covers essential keystrokes for a LazyVim setup. All commands are fro
 | Keystroke(s) | What It Does |
 | :--- | :--- |
 | `:set fileformat=unix` | **Remove `^M` (Windows)** characters from the file. You must `:w` (save) the file afterward to make it permanent. |
-| | An alternative (search/replace) way to do the same thing. It removes all carriage return (`\r`) characters. |
+| :%s/\r//g | An alternative (search/replace) way to do the same thing. It removes all carriage return (`\r`) characters. |
+
