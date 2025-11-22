@@ -13,10 +13,9 @@ return {
         -- This is the transparency level
         -- 0 is fully opaque, 100 is fully invisible
         -- Try a value between 15 and 30
-        winblend = 40,
 
         -- You can adjust these numbers to fit your screen
-        width = 90,  -- Set the width (in columns)
+        width = 80,  -- Set the width (in columns)
         height = 35, -- Set the height (in rows)
       },
     },
@@ -26,6 +25,7 @@ return {
       {
         "<leader>tt",
         function()
+          vim.cmd.write()
           require("toggleterm").toggle(0, nil, vim.fn.expand("%:p:h"), "float")
         end,
         desc = "Toggle terminal in file directory",
