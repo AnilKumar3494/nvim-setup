@@ -1,6 +1,29 @@
-# My Neovim Keystroke Cheat Sheet
+# My Neovim Installtion & Keystrokes
 
-This guide covers essential keystrokes for a LazyVim setup. All commands are from **Normal Mode** (press `<Esc>` to enter).
+## ⚙️ Installation & Requirements
+
+To get started with LazyVim, please ensure you complete the following steps:
+
+1.  **Requirements:** Review the prerequisites for installation on the official LazyVim site:
+    [LazyVim Requirements](https://www.lazyvim.org/#%EF%B8%8F-requirements)
+2.  **Installation:** Follow the detailed steps in the official guide to install LazyVim:
+    [LazyVim Installation Guide](https://www.lazyvim.org/installation)
+
+> **Note:** Feel free to clone and use my custom settings from the repository!
+
+***
+
+## Resources & Inspiration
+
+* **Effective Neovim setup for web development towards 2024** by *devaslife*
+    [https://youtu.be/fFHlfbKVi30?si=ekaZArAaEdTM8xoh]
+* **Effective NeoVim Setup for Full-Stack Web Development in 2024** by *Sindo*
+    [https://youtu.be/V070Zmvx9AM?si=JGWbxm1TVQgaBfTf]
+
+What got me dive and break my head setting this up and getting used to:
+*  [**ThePrimeagen**](https://github.com/theprimeagen) --- -- (jjkkjjkk)
+
+## Normal Mode
 
 * **Leader Key:** The `<leader>` key is the **Spacebar**.
 * **Vim Grammar:** Many commands follow a `[verb] + [noun]` grammar.
