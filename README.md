@@ -80,6 +80,7 @@ What got me dive and break my head setting this up and getting used to:
 | `yw` / `yiw` | **Yank** (copy) a word. |
 | `p` | **Put** (paste) the copied text *after* the cursor. |
 | `P` (Shift+p) | **Put** (paste) the copied text *before* the cursor. |
+|`ggVG` copy the whole file|
 
 ### History
 
